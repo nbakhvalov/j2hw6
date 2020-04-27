@@ -48,7 +48,7 @@ public class ConsoleServer {
                     break;
                 }
                 out.writeUTF("Server: " + message);
-                
+
             }
         } catch (IOException e) {
             e.printStackTrace();
